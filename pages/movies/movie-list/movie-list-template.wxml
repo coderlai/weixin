@@ -1,0 +1,12 @@
+<import src="../movie/movie-template.wxml" />
+<template name="movieListTemplate">
+    <view class="movie-list-container">
+        <view class="top">
+            <text class="type">{{title}}</text>
+            <text wx:if="{{showMore}}" class="more" bindtap="more" data-title="{{title}}" data-type="{{type}}">更多></text>
+        </view>
+        <view class="movie-list">
+            <template is="movieTemplate" data="{{movieList}}"/>
+        </view>
+    </view>
+</template>

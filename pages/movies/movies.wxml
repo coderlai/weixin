@@ -1,0 +1,8 @@
+<import src="movie-list/movie-list-template.wxml" />
+<view class="search-container">
+    <image class="search-icon" src="/images/icon/search.png"></image>
+    <input placeholder="请输入你要搜索的电影名称" class="search" type="text" placeholder-style="font-size:28rpx;" />
+</view>
+<view wx:for="{{list}}">
+    <template is="movieListTemplate" data="{{...item}}" />
+</view>

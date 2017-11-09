@@ -1,0 +1,5 @@
+<!--pages/movies/more/more.wxml-->
+<import src="../movie-list/movie-list-template.wxml" />
+<view class="more-movie-container">
+    <template is="movieListTemplate" data="{{...more}}" />
+</view>

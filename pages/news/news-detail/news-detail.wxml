@@ -1,0 +1,26 @@
+<view class="detail">
+    <!-- 新闻的图片 -->
+    <view class="cover">
+        <image bindtap="onplay" src="{{isplaying ? '/images/music/music-stop.png' : '/images/music/music-start.png'}}" class="music-control"></image>
+        <image src="{{isplaying ? coverImg : newsImg }}" class="news-img"></image>
+    </view>
+    <!-- 新闻发布信息 -->
+    <view class="post-info">
+        <image src="{{avatar}}" class="avatar"></image>
+        <text class="source">知乎</text>
+        <text>发表于</text>
+        <text class="post-date">{{postDate}}</text>
+    </view>
+    <text class="news-title">{{title}}</text>
+    <!-- 收藏和分享 -->
+    <view class="collect-share">
+        <view class="img">
+            <image wx:if="{{isCollected}}" src="/images/icon/collection.png" bindtap="oncollect" class="collect"></image>
+            <image wx:else src="/images/icon/collection-anti.png" bindtap="oncollect" class="collect"></image>
+            <image src="/images/icon/share.png" bindtap="onshare" class="share"></image>
+        </view>
+        <view class="line"></view>
+    </view>
+    <!-- 文章内容 -->
+    <text class="news-content">{{content}}</text>
+</view>

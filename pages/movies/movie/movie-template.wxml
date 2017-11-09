@@ -1,0 +1,10 @@
+<import src="../stars/star-template.wxml" />
+<template name="movieTemplate">
+    <view class="movie-container" wx:for="{{movieList}}" data-id="{{item.id}}" bindtap="toDetail" >
+        <image src="{{item.moviePost}}" class="movie-post"></image>
+        <text class="title">{{item.name}}</text>
+        <view class="ratings">
+            <template is="starTemplate" data="{{...item.score}}"/>
+        </view>
+    </view>
+</template>

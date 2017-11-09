@@ -1,0 +1,8 @@
+<view class="container">
+    <image class='avatar' src="/images/avatar/avatar.png"></image>
+    <text class='welcome'>Hello 10月</text>
+    <!--view相当于div标签，只用于分割页面不同部分代码  -->
+    <view class='moto-container' bindtap="jumpTo">
+        <text class='moto'>开启小程序之旅</text>
+    </view>
+</view>

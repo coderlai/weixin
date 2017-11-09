@@ -1,0 +1,15 @@
+<import src="news-item/news-item.wxml" />
+<view>
+    <swiper bindtap="onswiper" indicator-dots='true' indicator-color='rgba(255,255,255,1)' indicator-active-color='red' autoplay='true' interval='2000'>
+        <swiper-item>
+            <image data-id="1" src='/images/wx.png'></image>
+        </swiper-item>
+        <swiper-item>
+            <image data-id="2" src='/images/iqiyi.png'></image>
+        </swiper-item>
+        <swiper-item>
+            <image data-id="3" src='/images/vr.png'></image>
+        </swiper-item>
+    </swiper>
+</view>
+<template is="newsItem" data="{{newsList}}" />

@@ -1,0 +1,17 @@
+.star-tpl {
+    display: flex;
+    flex-direction: row;
+}
+
+.stars-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 25rpx;
+}
+
+.stars-container image {
+    width: 17rpx;
+    height: 17rpx;
+    margin-right: 5rpx;
+    margin-top: 7rpx;
+}

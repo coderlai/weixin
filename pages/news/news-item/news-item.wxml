@@ -1,0 +1,16 @@
+<template name="newsItem">
+    <view bindtap="toDetail" data-id="{{item.id}}" class='new-container' wx:for="{{newsList}}">
+        <view class='time-avatar'>
+            <image src="{{item.postAvatar}}" class='post-avatar'></image>
+            <text class="post-date">{{item.newDate}}</text>
+        </view>
+        <text class='new-title'>{{item.newTitle}}</text>
+        <image src="{{item.newImg}}" class="new-img"></image>
+        <view class='collect-view'>
+            <image src="{{item.collectImg}}" class="collect-img"></image>
+            <text class="collect-num">{{item.collectNum}}</text>
+            <image src='{{item.viewImg}}' class='view-img'></image>
+            <text class="view-num">{{item.viewNum}}</text>
+        </view>
+    </view>
+</template>

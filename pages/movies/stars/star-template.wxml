@@ -1,0 +1,12 @@
+<template name="starTemplate">
+    <view class="star-tpl">
+        <view class="stars-container">
+            <image src="/images/icon/star.png"></image>
+            <image src="/images/icon/star.png"></image>
+            <image src="/images/icon/star.png"></image>
+            <image src="/images/icon/star.png"></image>
+            <image src="/images/icon/star.png"></image>
+        </view>
+        <text class="star-score">{{num}}</text>
+    </view>
+</template>

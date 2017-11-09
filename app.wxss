@@ -1,0 +1,7 @@
+text {
+    font-family: MicroSoft Yahei;
+}
+
+text {
+    font-size: 24rpx;
+}

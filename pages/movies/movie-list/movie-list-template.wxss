@@ -1,0 +1,26 @@
+@import "../movie/movie-template.wxss";
+.movie-list-container {
+    padding: 35rpx 10rpx 30rpx 10rpx
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35rpx;
+}
+
+.type {
+    color: #666;
+    font-size: 30rpx;
+}
+
+.more {
+    color: #1f4ba5;
+    font-size: 30rpx;
+}
+
+.movie-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

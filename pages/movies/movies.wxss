@@ -1,0 +1,17 @@
+@import "movie-list/movie-list-template.wxss";
+.search-container {
+    position: relative;
+}
+
+.search {
+    padding: 20rpx 45rpx;
+    background-color: #f2f2f2;
+}
+
+.search-icon {
+    position: absolute;
+    top: 36rpx;
+    left: 10rpx;
+    width: 30rpx;
+    height: 30rpx;
+}

@@ -1,0 +1,59 @@
+.new-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+    margin-bottom: 80rpx;
+    padding-bottom: 30rpx;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.time-avatar {
+    margin-top: 15rpx;
+    margin-left: 25rpx;
+}
+
+.post-avatar {
+    width: 60rpx;
+    height: 60rpx;
+    margin-right: 40rpx;
+    vertical-align: middle;
+}
+
+.post-date {
+    color: #666;
+    font-size: 25rpx;
+    vertical-align: middle;
+}
+
+.new-title {
+    font-size: 30rpx;
+    font-weight: 600;
+    color: #333;
+    margin: 45rpx 0 35rpx 25rpx;
+}
+
+.new-img {
+    width: 100%;
+    height: 500rpx;
+}
+
+.collect-view {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25rpx;
+}
+
+.collect-img,
+.view-img {
+    width: 40rpx;
+    height: 40rpx;
+    margin: 0 20rpx;
+    vertical-align: middle;
+}
+
+.collect-num,
+.view-num {
+    font-size: 30rpx;
+    color: #666;
+}
